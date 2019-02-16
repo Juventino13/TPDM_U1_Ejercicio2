@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TPDM_U1_Ejercicio2</string>
+    <string name="listaview">
+            <item>Dinamico</item>
+            <item>Condiciones</item>
+            <item>Ciclos</item>
+            <item>Acerca de...</item>
+            <item>Exit</item>
+    </string>
+</resources>
