@@ -53,6 +53,7 @@ LinearLayout layin;
                 boton.setText("BOTON DINAMICO");
                 layin.addView(boton);
     }
+    //NO SE TIENE REFERENCIA A EL
 
     private void agregarCampo(){
         EditText campotexto = new EditText(this);
