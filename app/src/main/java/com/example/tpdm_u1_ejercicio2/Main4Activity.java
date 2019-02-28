@@ -25,6 +25,7 @@ int i2;
     }
 
 //eleimar botones dinamico(0);
+    /*
     private void generarBotonesDinamicos(){
         eliminarBotonesDinamicos( 1 );
         int cantidad = Integer.parseInt(cantidadB.getText().toString());
@@ -43,8 +44,10 @@ int i2;
                 }
             });
         }
+
     }
-    public void eliminarBotonesDinamicos( int w) {
+    */
+  /*  public void eliminarBotonesDinamicos( int w) {
         if (vectorBotones = null ) {
             if (w==0){
                 Toast.makeText(this, "primero crea!", Toast.LENGTH_LONG).show();
@@ -55,5 +58,5 @@ int i2;
         }
         layo.removeViews(3, vectorBotones.lenght);
         vectoresBotones=null;
-    }
+    }*/
 }

@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -55,10 +56,12 @@ LinearLayout layin;
     }
     //NO SE TIENE REFERENCIA A EL
 
-    private void agregarCampo(){
+    public void agregarCampo(){
         EditText campotexto = new EditText(this);
         campotexto.setText("Campo de texto dinamico");
         layin.addView(campotexto);
+        Toast.makeText(Main2Activity.this, "hola", Toast.LENGTH_LONG).show();
+
     }
     private void agregarEtiqueta(){
         TextView eti= new TextView(this);
